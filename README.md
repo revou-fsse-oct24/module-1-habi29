@@ -1,1 +1,119 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/f-sXtHED)
+# Welcome To Daima Moosa Glamping Park
+
+This is one of the accommodations in the Solok district area.
+
+## Table of contents
+
+- [Technologies Used](#technologies-used)
+- [Setup](#setup)
+- [Code](#Code)
+
+## Technologies Used
+
+- HTML5
+
+## Setup
+
+1. Clone the repository:
+```
+https://github.com/revou-fsse-oct24/module-1-habi29.git
+```
+
+2. Open The 'index.html' file your browser
+```
+open index.html
+```
+3. Assets Folder
+```
+<img src="https://www.kabarsumbar.com/wp-content/uploads/2022/07/354032472.jpg">
+<iframe src="https://www.youtube.com/embed/F2OPT1wS7E8"></iframe>
+```
+
+## Code 
+
+the program I use
+> Example
+```
+
+<body>
+    
+    <header>
+        <nav>
+             <ul>
+                <li><a href="#index.html">Home</a></li>
+                <li><a href="#About-us">About</a></li>
+                <li><a href="#Fasilitas">Fasilitas</a></li>
+                <li><a href="#Boking">Boking</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h1>Welcome To Daima Moosa Glamping Park</h1>
+                <p>We offer accommodation in the Solok district area with beautiful views.</p>
+                <img src="https://www.kabarsumbar.com/wp-content/uploads/2022/07/354032472.jpg" width="500" height="350" />
+            </div>
+        </section>
+             
+        <section class="About-us" id="About-us">
+            <h2>About</h2>
+            <p>provides comfortable and safe accommodation at affordable prices, has excellent facilities</p>
+        </section>
+
+        <section class="Fasilitas" id="Fasilitas">
+            <h2>Fasilitas</h2>
+            <p>some of the facilities available at Daima Moosa Glamping Park </p>
+            <iframe src="https://www.youtube.com/embed/F2OPT1wS7E8" width="500" height="350" ></iframe>
+
+        </section>
+
+        <Section class="Boking" id="Boking">
+            <h2>Boking</h2>
+        </Section>
+
+    <form action="/action_page.php" target="_blank" method="get">
+        <form>
+            <label for="fname">nama lengkap:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="number">NIK:</label><br>
+            <input type="number" id="number" name="number"><br/>
+            <label for="number">nomor telpon:</label><br>
+            <input type="number" id="number" name="number"><br/>
+        </form>
+
+    <p>Room:</p>
+        <form>
+            <input type="radio" id="Superior" name="Room" value="Superior">
+            <label for="room">Superior</label><br>
+            <input type="radio" id="Vila 2 Badroom" name="Room" value="Vila 2 Badroom">
+            <label for="room">Vila 2 Badroom</label><br>
+        </form>
+
+    <p>Extra</p>
+        <form>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Sigle Bed">
+            <label for="vehicle1"> Sigle Bed</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Extra Bed">
+            <label for="vehicle2"> Extra Bed</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Other">
+            <label for="vehicle3"> Other</label><textarea id="w3review" name="w3review" rows="1" cols="20"></textarea><br>
+        </form>
+
+        <form action="/action_page.php">
+        <p><label for="w3review">Messages:</label></p>
+        <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+        <br>
+        <input type="Submit" value="Submit">
+        </form>
+</main>
+    <footer>
+        <p>&#169: 2024 Habi Permana Putra </p>
+    </footer>
+</body>
+```
+
+
+
+
