@@ -6,44 +6,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>assingment.modul1</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    
-    <header>
-        <nav>
-             <ul>
-                <li><a href="#index.html">Home</a></li>
-                <li><a href="#About-us">About</a></li>
-                <li><a href="#Fasilitas">Fasilitas</a></li>
-                <li><a href="#Boking">Boking</a></li>
-            </ul>
-        </nav>
-    </header>
+    <section class="home">
+         <header>
+            <nav>
+                <div class="nav-content">
+                    <div class="logo">
+                        <img src="https://www.shutterstock.com/shutterstock/photos/1501463624/display_1500/stock-vector-villa-icon-vector-illustration-creative-sign-from-buildings-icons-collection-filled-flat-villa-1501463624.jpg" alt="logo" class="logo" width="50px">
+                </div>
+                    <ul>
+                        <li><a href="#index.html">Home</a></li>
+                        <li><a href="#About-us">About</a></li>
+                        <li><a href="#Type Room">Type Room</a></li>
+                        <li><a href="#Boking">Boking</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </section>
 
     <main>
         <section>
-            <div>
-                <h1>Welcome To Daima Moosa Glamping Park</h1>
+            <div class="content">
+                <h2>Welcome To Daima Moosa Glamping Park</h2>
                 <p>We offer accommodation in the Solok district area with beautiful views.</p>
-                <img src="https://www.kabarsumbar.com/wp-content/uploads/2022/07/354032472.jpg" width="500" height="350" />
+                <img src="https://www.kabarsumbar.com/wp-content/uploads/2022/07/354032472.jpg" width="350" height="200" />
             </div>
         </section>
              
-        <section class="About-us" id="About-us">
-            <h2>About</h2>
-            <p>provides comfortable and safe accommodation at affordable prices, has excellent facilities</p>
+        <section> 
+            <divclass="About-us" id="About-us">
+            
+            <h3>About</h3>
+            <p>Relaxing and peaceful stay at Daima Moosa Glamping Park, located in Lubuk Selasih. Enjoy a delicious dinner and enjoy the beautiful nature of tea plantations while staying in our luxury glamping park-themed inn. This eco-friendly glamping park allows leisure travelers and family vacations to enjoy their stay.</p>
         </section>
 
-        <section class="Fasilitas" id="Fasilitas">
-            <h2>Fasilitas</h2>
-            <p>some of the facilities available at Daima Moosa Glamping Park </p>
-            <iframe src="https://www.youtube.com/embed/F2OPT1wS7E8" width="500" height="350" ></iframe>
+        <section class="Type Room" id="Type Room">
+            <h3>Type Room</h3>
+            <p>Glamping</p>
+            <img src="https://daimahotel.com/images/hotel/204MNY09443-2.jpg" width="350" height="200" alt="Type Room">
+            <p>Villa Glamping Deluxe</p>
+            <img src="https://daimahotel.com/images/hotel/694MNY09468.jpg" width="350" height="200" alt="Type Room ">
+            <p>Villa Glamping Superior</p>
+            <img src="https://daimahotel.com/images/hotel/649MNY09447.jpg" width="350" height="200" alt="Type Room">
 
         </section>
 
         <Section class="Boking" id="Boking">
-            <h2>Boking</h2>
+            <h3>Boking</h3>
         </Section>
 
     <form action="/action_page.php" target="_blank" method="get">
@@ -57,10 +70,12 @@
         
     <p>Room:</p>
         
-            <input type="radio" id="Superior" name="Room" value="Superior">
-            <label for="room">Superior</label><br>
-            <input type="radio" id="Vila 2 Badroom" name="Room" value="Vila 2 Badroom">
-            <label for="room">Vila 2 Badroom</label><br>        
+            <input type="radio" id="Glamping" name="Room" value="Glamping">
+            <label for="room">Glamping</label><br>
+            <input type="radio" id="Villa Glamping Deluxe" name="Room" value="Villa Glamping Deluxe">
+            <label for="room">Villa Glamping Deluxe</label><br>
+            <input type="radio" id="Villa Glamping Superior" name="Room" value="Villa Glamping Superior">
+            <label for="room">Villa Glamping Superior</label><br>           
 
     <p>Extra</p>
         
